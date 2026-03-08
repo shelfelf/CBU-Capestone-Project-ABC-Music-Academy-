@@ -1,8 +1,8 @@
 # CBU-Capestone-Project-ABC-Music-Academy-
-Analyzing ABC Academy of Music’s performance, we integrated subscription, invoice, and attendance data to assess service metrics and demo-to-paid conversions. This data-driven assessment identifies key patterns in payment behaviour and client engagement to optimise revenue and reduce default payments. This is private data; it cannot be disclosed without the company's authorisation. And therefore, the results cannot be disclosed either.
+Analyzing a Music academy's performance, we integrated subscription, invoice, and attendance data to assess service metrics and demo-to-paid conversions. This data-driven assessment identifies key patterns in payment behaviour and client engagement to optimise revenue and reduce default payments. This is private data; it cannot be disclosed without the company's authorisation. And so, the results cannot be shared either.
 
 1) INTRODUCTORY INFORMATION
-This project consists of three analytical modules (Q1, Q2, Q3) focusing on service performance, sales behavior, and conversion analytics to support business decision-making.
+This project comprises three analytical modules (Q1, Q2, Q3) that focus on service performance, sales behaviour, and conversion analytics to support business decision-making.
 
 1.1. Project Overview
 This project analyzes client behavior and revenue for an organization using four main tables stored in a single Excel workbook:
@@ -108,7 +108,7 @@ The scripts are logically independent (each can be run on its own), but for a ty
 
 Service & Revenue Overview:
 python Question1.py
-• Produces merged dataset and servicelevel visualizations.
+• Produces merged dataset and service-level visualisations.
 
 Late Payment Analysis:
 python Question2.py
@@ -124,7 +124,7 @@ Question1.py
 
 • Writes: 
 o ABC_Final_Df_Q1.xlsx to the same A_ABC_DATA folder (path is hardcoded).
-• Shows multiple plots (bar charts and pie chart).
+• Shows multiple plots (bar charts and pie charts).
 
 Question2.py
 • Does not write new files by default, but:
@@ -134,7 +134,7 @@ o Bar charts
 o Stacked bar
 o Line chart
 o Heatmap
-o Dualaxis chart
+o Dual-axis chart
 
 Question3.py
 • Writes multiple CSV files
@@ -151,7 +151,7 @@ Files include (but are not limited to):
 • trans_demo_success.csv
 • status_summary_final.csv
 
-• Shows many visualizations:
+• Shows many visualisations:
 o Overall conversion bars
 o Conversion by demo source
 o Days to convert histogram
@@ -194,15 +194,15 @@ o Check that the month_name_full column contains valid month names.
 • Confirm that:
 o demo_clients_df has a mix of CONVERTED = True/False (if data supports it).
 o DAYS_TO_CONVERT values are nonnegative for converted clients.
-o CONVERTED_WITHIN_WINDOW counts match expectations for a 180day window.
+o CONVERTED_WITHIN_WINDOW counts match expectations for a 180-day window.
 • Check summaries:
 o Overall conversion rate.
-o Sourcebased conversion rates.
+o Source-based conversion rates.
 o Revenue totals for converted clients.
 
 4.3. Output Integrity
 • Open selected CSV outputs (e.g., cohort_summary_final.csv, rev_by_client_converted_final.csv) and verify:
-o No obvious malformed values (e.g., all zeros for amounts when you expect nonzero).
+o No obvious malformed values (e.g., all zeros for amounts when you expect non-zero).
 o Headers are correct and match the intent described in the code.
 o Date fields are in consistent formats.
 
@@ -219,7 +219,7 @@ o Known conversion behavior for test clients.
 The following are known limitations / potential issues in the current scripts:
 1. HardCoded File Paths
 • All file paths are hardcoded for a specific Windows environment and OneDrive structure.
-• If you move the project or run on another machine, you must edit:
+• If you move the project or run it on another machine, you must edit:
 o Paths in Question1.py & Question2.py.
 o INPUT_XLSX and OUTPUT_DIR in Question3.py.
 
