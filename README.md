@@ -1,4 +1,4 @@
-# CBU-Capestone-Project-ABC-Music-Academy-
+# Capestone-Project-Music-Academy-
 Analyzing a Music academy's performance, we integrated subscription, invoice, and attendance data to assess service metrics and demo-to-paid conversions. This data-driven assessment identifies key patterns in payment behaviour and client engagement to optimise revenue and reduce default payments. This is private data; it cannot be disclosed without the company's authorisation. And so, the results cannot be shared either.
 
 1) INTRODUCTORY INFORMATION
