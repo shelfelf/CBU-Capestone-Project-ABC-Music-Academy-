@@ -1,5 +1,5 @@
 # CBU-Capestone-Project-ABC-Music-Academy-
-Analyzing ABC Academy of Music’s performance, we integrated subscription, invoice, and attendance data to assess service metrics and demo-to-paid conversions. This data-driven assessment identifies key patterns in payment behavior and client engagement to optimize revenue and reduce default payments.
+Analyzing ABC Academy of Music’s performance, we integrated subscription, invoice, and attendance data to assess service metrics and demo-to-paid conversions. This data-driven assessment identifies key patterns in payment behavior and client engagement to optimize revenue and reduce default payments. This is a private data, therefore cannot disclose it without the permission of the company.
 
 1) INTRODUCTORY INFORMATION
 This project consists of three analytical modules (Q1, Q2, Q3) focusing on service performance, sales behavior, and conversion analytics to support business decision-making.
@@ -103,25 +103,7 @@ pip install numpy pandas matplotlib seaborn pythondateutil openpyxl
 3) HOW TO RUN THE CODE
 Important: All three scripts assume that the Excel file path and sheet names are correct and accessible from your machine.
 
-3.1. Data File & Paths
-All scripts currently refer to:
-INPUT_XLSX = r"D:\OneDrive  Cape Breton University\Cape Breton University\Semester 4 Subject Material\Capstone Project\Project\Team 1 Project Documents\A_ABC_DATA\ABC_Merged_Data_Final.xlsx"
-
-and sheet names:
-"A_attendance_report_FULL"
-"A_subscriptions_report_FULL"
-"A_invoice_report_FULL"
-"A_transactions_report_FULL"
-
-If file is in a different location:
-1. Update the paths in:
-Question1.py
-Question2.py
-Question3.py
-2. Make sure the sheet names match the actual workbook.
-3. Ensure dataset is placed in working directory or update file paths accordingly.
-
-3.2. Recommended Execution Order
+3.1. Recommended Execution Order
 The scripts are logically independent (each can be run on its own), but for a typical analysis workflow:
 
 Service & Revenue Overview:
@@ -137,7 +119,7 @@ python Question3.py
 • Produces the full funnel demo → conversion → revenue analysis.
 • Writes multiple CSV outputs into an outputs directory.
 
-3.3. Output Files
+3.2. Output Files
 Question1.py
 
 • Writes: 
@@ -155,9 +137,7 @@ o Heatmap
 o Dualaxis chart
 
 Question3.py
-• Writes multiple CSV files under:
-OUTPUT_DIR = r"D:\OneDrive  Cape Breton University\Cape Breton University\Semester 4 Subject Material\Capstone Project\Project\Team 1 Project Documents\A_ABC_DATA\outputs"
-
+• Writes multiple CSV files
 Files include (but are not limited to):
 
 • cohort_summary_final.csv
